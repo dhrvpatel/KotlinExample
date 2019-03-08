@@ -38,3 +38,34 @@ fun main() {
     ) }
 
 }
+
+
+
+
+
+/// Using Interface
+/*
+interface Car {
+
+    val name: String
+    val releaseDate: Int
+    val price: Int
+
+}
+
+class Cruze : Car {
+
+    override val name: String
+        get() = "Chevrolet Cruze"
+    override val releaseDate: Int
+        get() = 32
+    override val price: Int
+        get() = 25000
+}
+
+fun main() {
+    val obj = Cruze()
+
+    println("test = ${obj.name}")
+
+}*/
